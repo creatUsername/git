@@ -26,3 +26,7 @@
     * 操作
       - 版本回滚
       - git reset --hard [version] 回滚到指定版本
+      - 版本还原
+      - git log [X]
+      - git reflog [√]
+      - git reset --hard [version]
