@@ -72,7 +72,7 @@
   * 操作
     - 链接远程仓库
     - git remote add origin [url] 远程仓库地址
-    - 代码推送到分支(-u 可以指定)
+    - 代码推送到分支(-u 默认参数以后可以使用git push 代替 git push origin master)
     - git push -u origin [branch]
     - 克隆远程仓库代码(默认实现远程仓库链接)
     - git clone [url]
