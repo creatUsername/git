@@ -42,3 +42,19 @@
 
       - 版本还原至 暂存区
       - git reset --soft [version]
+
+# 分支 [branch]
+  - [master] 主支
+  - [branch-name] 分支
+
+  * 操作
+    - 查看分支
+    - git branch
+    - 创建分支
+    - git branch [branch-name]
+    - 进入分支
+    - git checkout [branch-name]
+    - 创建并进入分支
+    - git checkout -b [branch-name]
+    - 删除分支
+    - git branch -d [branch-name]
