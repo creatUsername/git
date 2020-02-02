@@ -58,3 +58,22 @@
     - git checkout -b [branch-name]
     - 删除分支
     - git branch -d [branch-name]
+    - 合并分支
+    - git merge [branch-name] * 先切换到要合并的分支
+
+  - 简单工作流
+    - master [线上分支]
+    - dev [开发分支]
+    - bug [BUG分支]
+
+# github
+  - 线上代码托管仓库
+  
+  * 操作
+    - 链接远程仓库
+    - git remote add origin [url] 远程仓库地址
+    - 代码推送到分支
+    - git push -u origin [branch]
+    - 克隆远程仓库代码(默认实现远程仓库链接)
+    - git clone [url]
+    - 拉取远程仓库代码
